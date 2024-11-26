@@ -59,23 +59,3 @@ async function quantidadeEstudantes() {
 
 quantidadeEstudantes()
 
-Adicionar comentário para a turma...
-
-
-Aviso: "Copie e cole o código abaixo no arquivo…"
-TANIA MARIA DARRONQUE SASSO
-Criado em: OntemOntem
-Copie e cole o código abaixo   no arquivo JS:  common.js 
-
-const getCSS = (variavel) => {
-    return getComputedStyle(document.body).getPropertyValue(variavel)
-   
-}
-
-const tickConfig = {
-    color: getCSS('--primary-color'),
-    size: 16,
-    family: getCSS('--font')
-}
-
-export { getCSS, tickConfig}
